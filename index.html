@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Jobs Portal</title>
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+         crossorigin="anonymous"
+      />
+      <link rel="stylesheet" href="main.css" />
+   </head>
+   <body>
+
+      <header class="header">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col">
+                  <div class="header__wrapper">
+                     <a href="#">
+                        <svg
+                           width="141"
+                           height="21"
+                           viewBox="0 0 141 21"
+                           fill="none"
+                           xmlns="http://www.w3.org/2000/svg"
+                        >
+                           <path
+                              d="M0.587474 14.5392C0.587474 17.9972 3.27116 20.3338 7.33008 20.3338C11.2822 20.3338 13.819 18.1842 14.6468 14.2588L17.5308 0.73351H12.6173L9.8669 13.6446C9.51976 15.3002 8.71865 16.128 7.41019 16.128C6.08837 16.128 5.31397 15.2735 5.31397 13.9517V13.7381H0.627529C0.600826 13.965 0.587474 14.3122 0.587474 14.5392ZM23.5262 16.7689C22.0976 16.7689 21.1763 15.5405 21.1763 13.698C21.1763 10.8274 22.6717 8.69112 24.7279 8.69112C26.1431 8.69112 27.0644 9.91947 27.0644 11.762C27.0644 14.5926 25.5423 16.7689 23.5262 16.7689ZM24.9281 5.11286C20.0414 5.11286 16.5166 8.77123 16.5166 13.7915C16.5166 17.7169 19.2537 20.3471 23.3393 20.3471C28.226 20.3471 31.7509 16.6888 31.7509 11.6685C31.7509 7.7565 29.0138 5.11286 24.9281 5.11286ZM41.2711 20.2136C45.4235 20.2136 48.3876 16.1013 48.3876 10.9476C48.3876 7.396 46.465 5.24638 43.4208 5.24638C41.5382 5.24638 39.8959 6.12759 39.0281 7.58293H38.9079L40.3899 0.73351H35.797L31.6846 20H36.1441L36.7182 17.3163H36.8117C37.3457 19.052 39.1082 20.2136 41.2711 20.2136ZM40.1496 16.5553C38.6809 16.5553 37.7196 15.4204 37.7196 13.7514C37.7196 11.0811 39.3084 8.78458 41.2711 8.78458C42.7398 8.78458 43.6477 9.89277 43.6477 11.6418C43.6477 14.3522 42.1524 16.5553 40.1496 16.5553ZM50.2574 9.89277C50.2574 11.8955 51.4991 13.2173 54.1961 14.1119L55.5046 14.5525C56.9199 15.0332 57.3471 15.3403 57.3471 15.9411C57.3471 16.7155 56.6128 17.2228 55.4378 17.2228C53.9424 17.2228 52.9811 16.4752 52.8876 15.3937H48.5216C48.6418 18.3844 51.2587 20.3471 55.3043 20.3471C59.2698 20.3471 61.9 18.3844 61.9 15.4471C61.9 13.4977 60.8453 12.3895 58.0948 11.4683L56.546 10.9609C55.064 10.4669 54.6234 10.1331 54.6234 9.49222C54.6234 8.73117 55.3711 8.22381 56.5594 8.22381C57.8144 8.22381 58.6956 8.9181 58.7624 9.91947H62.9014C62.808 7.08891 60.2578 5.12622 56.6261 5.12622C52.7675 5.12622 50.2574 7.02216 50.2574 9.89277ZM66.8407 0.73351L62.7551 20H67.6552L68.8568 14.3522H72.0479C77.3084 14.3522 80.7398 11.3615 80.7398 6.5415C80.7398 3.04335 78.2163 0.73351 74.0106 0.73351H66.8407ZM70.9397 4.49869H72.9958C74.785 4.49869 75.813 5.32649 75.813 6.9821C75.813 9.14508 74.331 10.6538 72.0479 10.6538H69.6312L70.9397 4.49869ZM87.3227 16.7689C85.8941 16.7689 84.9728 15.5405 84.9728 13.698C84.9728 10.8274 86.4682 8.69112 88.5244 8.69112C89.9397 8.69112 90.8609 9.91947 90.8609 11.762C90.8609 14.5926 89.3388 16.7689 87.3227 16.7689ZM88.7247 5.11286C83.8379 5.11286 80.3131 8.77123 80.3131 13.7915C80.3131 17.7169 83.0502 20.3471 87.1358 20.3471C92.0225 20.3471 95.5474 16.6888 95.5474 11.6685C95.5474 7.7565 92.8103 5.11286 88.7247 5.11286ZM95.3877 20H99.994L101.636 12.3495C102.09 10.2132 103.345 9.15843 105.241 9.15843C106.069 9.15843 106.75 9.3587 107.337 9.63909L108.219 5.62023C107.698 5.3799 107.097 5.24638 106.296 5.24638C104.667 5.24638 103.359 6.181 102.651 7.52952H102.558L102.971 5.46001H98.4986L95.3877 20ZM113.587 20.1869C114.334 20.1869 115.162 20.1202 115.576 20.0134L116.284 16.7822C116.097 16.8356 115.856 16.8624 115.322 16.8624C114.134 16.8624 113.6 16.5152 113.6 15.6874C113.6 15.4871 113.627 15.1667 113.68 14.9397L114.908 9.21183H117.806L118.527 5.7938H115.629L116.364 2.29566H111.784L111.036 5.7938H108.873L108.126 9.21183H110.302L108.98 15.4604C108.86 16.0746 108.833 16.622 108.833 16.9825C108.833 19.1054 110.622 20.1869 113.587 20.1869ZM123.721 17.0226C122.599 17.0226 121.825 16.4618 121.825 15.6073C121.825 14.6326 122.733 13.9917 124.135 13.9383L126.779 13.8582L126.538 14.9397C126.285 16.1414 125.083 17.0226 123.721 17.0226ZM121.692 20.2136C123.507 20.2136 125.016 19.4392 125.791 18.2776H125.884L125.51 20H129.956L131.946 10.6805C131.999 10.3734 132.052 9.87942 132.052 9.49222C132.052 6.88864 129.569 5.11286 125.871 5.11286C122.239 5.11286 119.582 6.9821 119.035 9.91947H123.254C123.521 9.02491 124.349 8.50419 125.55 8.50419C126.779 8.50419 127.566 9.05161 127.566 9.89277C127.566 10.0263 127.553 10.1465 127.513 10.3734L127.339 11.2279L123.895 11.3348C119.862 11.4549 117.392 13.2841 117.392 16.2615C117.392 18.5447 119.262 20.2136 121.692 20.2136ZM131.839 20H136.432L140.531 0.73351H135.938L131.839 20Z"
+                              fill="#0F71EB"
+                           />
+                     </a>
+                     </svg>
+                     <div class="header__items">
+                        <a href="#">About</a>
+                        <a href="#">Contact Us</a>
+                        <a href="">
+                           <svg
+                              width="20"
+                              height="18"
+                              viewBox="0 0 20 18"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                           >
+                              <path
+                                 d="M16.4167 3.95829H13.6667V3.04163C13.6667 2.31228 13.3769 1.61281 12.8612 1.09708C12.3455 0.581357 11.646 0.291626 10.9167 0.291626H9.08334C8.354 0.291626 7.65452 0.581357 7.1388 1.09708C6.62307 1.61281 6.33334 2.31228 6.33334 3.04163V3.95829H3.58334C2.854 3.95829 2.15453 4.24802 1.6388 4.76375C1.12307 5.27947 0.833344 5.97895 0.833344 6.70829V14.9583C0.833344 15.6876 1.12307 16.3871 1.6388 16.9028C2.15453 17.4186 2.854 17.7083 3.58334 17.7083H16.4167C17.146 17.7083 17.8455 17.4186 18.3612 16.9028C18.8769 16.3871 19.1667 15.6876 19.1667 14.9583V6.70829C19.1667 5.97895 18.8769 5.27947 18.3612 4.76375C17.8455 4.24802 17.146 3.95829 16.4167 3.95829ZM8.16668 3.04163C8.16668 2.79851 8.26325 2.56535 8.43516 2.39344C8.60707 2.22154 8.84023 2.12496 9.08334 2.12496H10.9167C11.1598 2.12496 11.393 2.22154 11.5649 2.39344C11.7368 2.56535 11.8333 2.79851 11.8333 3.04163V3.95829H8.16668V3.04163ZM17.3333 14.9583C17.3333 15.2014 17.2368 15.4346 17.0649 15.6065C16.893 15.7784 16.6598 15.875 16.4167 15.875H3.58334C3.34023 15.875 3.10707 15.7784 2.93516 15.6065C2.76325 15.4346 2.66668 15.2014 2.66668 14.9583V10.3291H5.41668V11.2916C5.41668 11.5347 5.51325 11.7679 5.68516 11.9398C5.85707 12.1117 6.09023 12.2083 6.33334 12.2083C6.57646 12.2083 6.80962 12.1117 6.98152 11.9398C7.15343 11.7679 7.25001 11.5347 7.25001 11.2916V10.3291H12.75V11.2916C12.75 11.5347 12.8466 11.7679 13.0185 11.9398C13.1904 12.1117 13.4236 12.2083 13.6667 12.2083C13.9098 12.2083 14.143 12.1117 14.3149 11.9398C14.4868 11.7679 14.5833 11.5347 14.5833 11.2916V10.3291H17.3333V14.9583ZM17.3333 8.54163H2.66668V6.70829C2.66668 6.46518 2.76325 6.23202 2.93516 6.06011C3.10707 5.8882 3.34023 5.79163 3.58334 5.79163H16.4167C16.6598 5.79163 16.893 5.8882 17.0649 6.06011C17.2368 6.23202 17.3333 6.46518 17.3333 6.70829V8.54163Z"
+                                 fill="white"
+                              />
+                           </svg>
+                           <span>Recruiting Companies</span>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+
+      <main class="main">
+         <div class="container">
+            <div class="row">
+               <div class="col">
+                  <section class="hero">
+                     <h1><img src="./images/hero-bg.png" class="img-fluid" alt="Find better Jobs faster"></h1>
+                  </section>
+                  <section class="items">
+                     <div class="items__header">
+                        <p>
+                           <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M16.4166 3.95829H13.6666V3.04163C13.6666 2.31228 13.3769 1.61281 12.8612 1.09708C12.3455 0.581357 11.646 0.291626 10.9166 0.291626H9.08331C8.35397 0.291626 7.65449 0.581357 7.13877 1.09708C6.62304 1.61281 6.33331 2.31228 6.33331 3.04163V3.95829H3.58331C2.85397 3.95829 2.15449 4.24802 1.63877 4.76375C1.12304 5.27947 0.833313 5.97895 0.833313 6.70829V14.9583C0.833313 15.6876 1.12304 16.3871 1.63877 16.9028C2.15449 17.4186 2.85397 17.7083 3.58331 17.7083H16.4166C17.146 17.7083 17.8455 17.4186 18.3612 16.9028C18.8769 16.3871 19.1666 15.6876 19.1666 14.9583V6.70829C19.1666 5.97895 18.8769 5.27947 18.3612 4.76375C17.8455 4.24802 17.146 3.95829 16.4166 3.95829ZM8.16665 3.04163C8.16665 2.79851 8.26322 2.56535 8.43513 2.39344C8.60704 2.22154 8.8402 2.12496 9.08331 2.12496H10.9166C11.1598 2.12496 11.3929 2.22154 11.5648 2.39344C11.7367 2.56535 11.8333 2.79851 11.8333 3.04163V3.95829H8.16665V3.04163ZM17.3333 14.9583C17.3333 15.2014 17.2367 15.4346 17.0648 15.6065C16.8929 15.7784 16.6598 15.875 16.4166 15.875H3.58331C3.3402 15.875 3.10704 15.7784 2.93513 15.6065C2.76322 15.4346 2.66665 15.2014 2.66665 14.9583V10.3291H5.41665V11.2916C5.41665 11.5347 5.51322 11.7679 5.68513 11.9398C5.85704 12.1117 6.0902 12.2083 6.33331 12.2083C6.57643 12.2083 6.80959 12.1117 6.98149 11.9398C7.1534 11.7679 7.24998 11.5347 7.24998 11.2916V10.3291H12.75V11.2916C12.75 11.5347 12.8466 11.7679 13.0185 11.9398C13.1904 12.1117 13.4235 12.2083 13.6666 12.2083C13.9098 12.2083 14.1429 12.1117 14.3148 11.9398C14.4867 11.7679 14.5833 11.5347 14.5833 11.2916V10.3291H17.3333V14.9583ZM17.3333 8.54163H2.66665V6.70829C2.66665 6.46518 2.76322 6.23202 2.93513 6.06011C3.10704 5.8882 3.3402 5.79163 3.58331 5.79163H16.4166C16.6598 5.79163 16.8929 5.8882 17.0648 6.06011C17.2367 6.23202 17.3333 6.46518 17.3333 6.70829V8.54163Z" fill="#4D4D4D"/>
+                           </svg>
+                           <span>49 Jobs found for you</span>
+                        </p>
+                        <p>
+                           <span>Latest</span>
+                           <svg width="13" height="7" viewBox="0 0 13 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M12.9167 1.32255C12.9171 1.4595 12.8869 1.59481 12.8282 1.71854C12.7695 1.84227 12.6839 1.95128 12.5775 2.03755L7.0775 6.46505C6.91348 6.59988 6.70774 6.67358 6.49542 6.67358C6.28309 6.67358 6.07735 6.59988 5.91333 6.46505L0.413332 1.88172C0.226133 1.72613 0.108411 1.50254 0.0860625 1.26015C0.0637144 1.01776 0.138571 0.776419 0.294165 0.58922C0.449758 0.402021 0.673344 0.284299 0.915735 0.261951C1.15813 0.239603 1.39947 0.314459 1.58666 0.470053L6.5 4.56755L11.4133 0.607553C11.5479 0.49546 11.7117 0.424256 11.8855 0.402367C12.0592 0.380477 12.2356 0.408818 12.3938 0.484035C12.5519 0.559253 12.6852 0.6782 12.7779 0.826801C12.8706 0.975402 12.9187 1.14744 12.9167 1.32255Z" fill="#4D4D4D"/>
+                           </svg>  
+                        </p>
+                     </div>
+                     <div class="items__main">
+                        <div class="item">
+                           <div class="row">
+                              <div class="col-md-1">
+                                 <div class="image-wrapper">
+                                    <img src="./images/cubix-logo.svg" alt="Cubix">  
+                                 </div>
+                              </div>
+                              <div class="col-md-11">
+                                 <div class="content-wrapper">
+                                    <div class="d-flex justify-content-between flex-column flex-md-row">
+                                       <h3 class="title">Sr. Developer needed for an IT firm at San Francisco</h3>
+                                    </div>
+                                    <a href="#" class="link">Cubix Technologies</a>
+                                    <div class="info">
+                                       <p>
+                                          <img src="./images/dollar.png" alt="Dollar">
+                                          <span>90k - 110k</span>                                           
+                                       </p>
+                                       <p>
+                                          <img src="./images/pin.png" class="pin" alt="Pin">
+                                          <span>San Francisco</span>                                           
+                                       </p>
+                                       <p>
+                                          <img src="./images/bag.png" alt="Bag">                                         
+                                          <span>Full time job  </span>                                           
+                                       </p>
+                                    </div>
+                                    <p class="description">
+                                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ridiculus elementum auctor nibh ut. Pellentesque consequat purus tempor porttitor leo. Cras ac arcu in imperdiet egestas habitant phasellus eget. Suspendisse turpis fusce mauris elit ut nisi, quisque.
+                                    </p>
+                                    <div class="info-2-wrapper">
+                                       <div class="info-2">
+                                          <p>Web development</p>
+                                          <p>HTML/CSS</p>
+                                          <p>Node Js.</p>
+                                       </div>
+                                       <div class="links-wrapper">
+                                          <button class="bottom-button">Apply now</button>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="item">
+                           <div class="row">
+                              <div class="col-md-1">
+                                 <div class="image-wrapper">
+                                    <img src="./images/arrow-logo.svg" alt="Cubix">  
+                                 </div>
+                              </div>
+                              <div class="col-md-11">
+                                 <div class="content-wrapper">
+                                    <div class="d-flex justify-content-between flex-column flex-md-row">
+                                       <h3 class="title">Lead product manager</h3>
+                                       <button class="top-button">
+                                          <svg width="18" height="15" viewBox="0 0 18 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M8.58123 2.23551L7.69305 1.34346C7.27676 0.919724 6.78113 0.582875 6.23469 0.35231C5.68826 0.121746 5.1018 0.00201959 4.50911 2.53311e-05C3.91641 -0.00196893 3.32917 0.113808 2.78121 0.340691C2.23325 0.567573 1.73538 0.901079 1.31628 1.32201C0.897174 1.74293 0.565114 2.24296 0.339214 2.79331C0.113315 3.34366 -0.00196039 3.93345 2.52213e-05 4.52873C0.00201084 5.12401 0.121218 5.71301 0.350784 6.26183C0.58035 6.81064 0.915739 7.30843 1.33764 7.72652L8.55999 14.9803L8.56162 14.9787L8.58287 15L15.8052 7.74622C16.2271 7.32812 16.5625 6.83034 16.7921 6.28152C17.0216 5.73271 17.1408 5.1437 17.1428 4.54843C17.1448 3.95315 17.0295 3.36336 16.8036 2.81301C16.5777 2.26266 16.2457 1.76263 15.8266 1.3417C15.4075 0.920774 14.9096 0.587269 14.3616 0.360386C13.8137 0.133504 13.2264 0.0177268 12.6338 0.019721C12.0411 0.0217153 11.4546 0.141442 10.9082 0.372006C10.3617 0.602571 9.8661 0.939419 9.44981 1.36316L8.58123 2.23551ZM8.56162 12.6578L12.5948 8.60627L13.7796 7.45735H13.7813L14.6498 6.58581C15.1862 6.04713 15.4875 5.31651 15.4875 4.55469C15.4875 3.79287 15.1862 3.06225 14.6498 2.52356C14.1135 1.98488 13.386 1.68225 12.6275 1.68225C11.869 1.68225 11.1415 1.98488 10.6052 2.52356L8.58205 4.55633L8.57633 4.55059H8.57551L6.53767 2.50469C6.00131 1.966 5.27386 1.66337 4.51534 1.66337C3.75682 1.66337 3.02937 1.966 2.49302 2.50469C1.95667 3.04338 1.65535 3.77399 1.65535 4.53581C1.65535 5.29763 1.95667 6.02825 2.49302 6.56694L4.56845 8.65141L4.56927 8.64894L8.56162 12.6587V12.6578Z" fill="#656565"/>
+                                          </svg>  
+                                          <span>Save this job</span>                                           
+                                       </button>
+                                    </div>
+                                    <a href="#" class="link">Arrow International</a>
+                                    <div class="info">
+                                       <p>
+                                          <img src="./images/dollar.png" alt="Dollar">
+                                          <span>100k - 145k</span>                                           
+                                       </p>
+                                       <p>
+                                          <img src="./images/pin.png" class="pin" alt="Pin">
+                                          <span>California</span>                                           
+                                       </p>
+                                       <p>
+                                          <img src="./images/bag.png" alt="Bag">                                           
+                                          <span>Full time job</span>                                           
+                                       </p>
+                                    </div>
+                                    <p class="description">
+                                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ridiculus elementum auctor nibh ut. Pellentesque consequat purus tempor porttitor leo. Cras ac arcu in imperdiet egestas habitant phasellus eget. Suspendisse turpis fusce mauris elit ut nisi, quisque.
+                                    </p>
+                                    <div class="info-2-wrapper">
+                                       <div class="info-2">
+                                          <p>Management</p>
+                                          <p>Product development</p>
+                                          <p>Quality assurance</p>
+                                          <p>Leadership</p>
+                                       </div>
+                                       <div class="links-wrapper">
+                                          <button class="bottom-button">Apply now</button>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="item">
+                           <div class="row">
+                              <div class="col-md-1">
+                                 <div class="image-wrapper">
+                                    <img src="./images/google-logo.svg" alt="Cubix">  
+                                 </div>
+                              </div>
+                              <div class="col-md-11">
+                                 <div class="content-wrapper">
+                                    <div class="d-flex justify-content-between flex-column flex-md-row">
+                                       <h3 class="title">Senior cloud engineer needed at Google</h3>
+                                    </div>
+                                    <a href="#" class="link">Google</a>
+                                    <div class="info">
+                                       <p>
+                                          <img src="./images/dollar.png" alt="Dollar">
+                                          <span>145k - 175k</span>                                           
+                                       </p>
+                                       <p>
+                                          <img src="./images/pin.png" class="pin" alt="Pin">
+                                          <span>San Francisco</span>                                           
+                                       </p>
+                                       <p>
+                                          <img src="./images/bag.png" alt="Bag">                                             
+                                          <span>Full time / Remote</span>                                           
+                                       </p>
+                                    </div>
+                                    <p class="description">
+                                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ridiculus elementum auctor nibh ut. Pellentesque consequat purus tempor porttitor leo. Cras ac arcu in imperdiet egestas habitant phasellus eget. Suspendisse turpis fusce mauris elit ut nisi, quisque.
+                                    </p>
+                                    <div class="info-2-wrapper">
+                                       <div class="info-2">
+                                          <p>Cloud computing</p>
+                                          <p>Python</p>
+                                          <p>Java/ C++</p>
+                                          <p>SQL database management</p>
+                                       </div>
+                                       <div class="links-wrapper">
+                                          <button class="bottom-button">Apply now</button>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="item">
+                           <div class="row">
+                              <div class="col-md-1">
+                                 <div class="image-wrapper">
+                                    <img src="./images/cubix-logo.svg" alt="Cubix">  
+                                 </div>
+                              </div>
+                              <div class="col-md-11">
+                                 <div class="content-wrapper">
+                                    <div class="d-flex justify-content-between flex-column flex-md-row">
+                                       <h3 class="title">Sr. Developer needed for an IT firm at San Francisco</h3>
+                                    </div>
+                                    <a href="#" class="link">Cubix Technologies</a>
+                                    <div class="info">
+                                       <p>
+                                          <img src="./images/dollar.png" alt="Dollar">
+                                          <span>90k - 110k</span>                                           
+                                       </p>
+                                       <p>
+                                          <img src="./images/pin.png" class="pin" alt="Pin">
+                                          <span>San Francisco</span>                                           
+                                       </p>
+                                       <p>
+                                          <img src="./images/bag.png" alt="Bag">                                            
+                                          <span>Full time job</span>                                           
+                                       </p>
+                                    </div>
+                                    <p class="description">
+                                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ridiculus elementum auctor nibh ut. Pellentesque consequat purus tempor porttitor leo. Cras ac arcu in imperdiet egestas habitant phasellus eget. Suspendisse turpis fusce mauris elit ut nisi, quisque.
+                                    </p>
+                                    <div class="info-2-wrapper">
+                                       <div class="info-2">
+                                          <p>Web development</p>
+                                          <p>HTML/CSS</p>
+                                          <p>Node Js.</p>
+                                       </div>
+                                       <div class="links-wrapper">
+                                          <a href="#" class="link">View details</a>
+                                          <button class="bottom-button">Apply now</button>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="item">
+                           <div class="row">
+                              <div class="col-md-1">
+                                 <div class="image-wrapper">
+                                    <img src="./images/arrow-logo.svg" alt="Cubix">  
+                                 </div>
+                              </div>
+                              <div class="col-md-11">
+                                 <div class="content-wrapper">
+                                    <div class="d-flex justify-content-between flex-column flex-md-row">
+                                       <h3 class="title">Lead product manager</h3>
+                                    </div>
+                                    <a href="#" class="link">Arrow International</a>
+                                    <div class="info">
+                                       <p>
+                                          <img src="./images/dollar.png" alt="Dollar">
+                                          <span>100k - 145k</span>                                           
+                                       </p>
+                                       <p>
+                                          <img src="./images/pin.png" class="pin" alt="Pin">
+                                          <span>California</span>                                           
+                                       </p>
+                                       <p>
+                                          <img src="./images/bag.png" alt="Bag">                                            
+                                          <span>Full time job</span>                                           
+                                       </p>
+                                    </div>
+                                    <p class="description">
+                                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ridiculus elementum auctor nibh ut. Pellentesque consequat purus tempor porttitor leo. Cras ac arcu in imperdiet egestas habitant phasellus eget. Suspendisse turpis fusce mauris elit ut nisi, quisque.
+                                    </p>
+                                    <div class="info-2-wrapper">
+                                       <div class="info-2">
+                                          <p>Management</p>
+                                          <p>Product development</p>
+                                          <p>Quality assurance</p>
+                                          <p>Leadership</p>
+                                       </div>
+                                       <div class="links-wrapper">
+                                          <button class="bottom-button">Apply now</button>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="item">
+                           <div class="row">
+                              <div class="col-md-1">
+                                 <div class="image-wrapper">
+                                    <img src="./images/google-logo.svg" alt="Cubix">  
+                                 </div>
+                              </div>
+                              <div class="col-md-11">
+                                 <div class="content-wrapper">
+                                    <div class="d-flex justify-content-between flex-column flex-md-row">
+                                       <h3 class="title">Senior cloud engineer needed at Google</h3>
+                                    </div>
+                                    <a href="#" class="link">Google</a>
+                                    <div class="info">
+                                       <p>
+                                          <img src="./images/dollar.png" alt="Dollar">
+                                          <span>145k - 175k</span>                                           
+                                       </p>
+                                       <p>
+                                          <img src="./images/pin.png" class="pin" alt="Pin">
+                                          <span>San Francisco</span>                                           
+                                       </p>
+                                       <p>
+                                          <img src="./images/bag.png" alt="Bag">                                             
+                                          <span>Full time / Remote</span>                                           
+                                       </p>
+                                    </div>
+                                    <p class="description">
+                                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ridiculus elementum auctor nibh ut. Pellentesque consequat purus tempor porttitor leo. Cras ac arcu in imperdiet egestas habitant phasellus eget. Suspendisse turpis fusce mauris elit ut nisi, quisque.
+                                    </p>
+                                    <div class="info-2-wrapper">
+                                       <div class="info-2">
+                                          <p>Cloud computing</p>
+                                          <p>Python</p>
+                                          <p>Java/ C++</p>
+                                          <p>SQL database management</p>
+                                       </div>
+                                       <div class="links-wrapper">
+                                          <button class="bottom-button">Apply now</button>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="item">
+                           <div class="row">
+                              <div class="col-md-1">
+                                 <div class="image-wrapper">
+                                    <img src="./images/cubix-logo.svg" alt="Cubix">  
+                                 </div>
+                              </div>
+                              <div class="col-md-11">
+                                 <div class="content-wrapper">
+                                    <div class="d-flex justify-content-between flex-column flex-md-row">
+                                       <h3 class="title">Sr. Developer needed for an IT firm at San Francisco</h3>
+                                    </div>
+                                    <a href="#" class="link">Cubix Technologies</a>
+                                    <div class="info">
+                                       <p>
+                                          <img src="./images/dollar.png" alt="Dollar">
+                                          <span>90k - 110k</span>                                           
+                                       </p>
+                                       <p>
+                                          <img src="./images/pin.png" class="pin" alt="Pin">
+                                          <span>San Francisco</span>                                           
+                                       </p>
+                                       <p>
+                                          <img src="./images/bag.png" alt="Bag">                                            
+                                          <span>Full time job</span>                                           
+                                       </p>
+                                    </div>
+                                    <p class="description">
+                                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ridiculus elementum auctor nibh ut. Pellentesque consequat purus tempor porttitor leo. Cras ac arcu in imperdiet egestas habitant phasellus eget. Suspendisse turpis fusce mauris elit ut nisi, quisque.
+                                    </p>
+                                    <div class="info-2-wrapper">
+                                       <div class="info-2">
+                                          <p>Web development</p>
+                                          <p>HTML/CSS</p>
+                                          <p>Node Js.</p>
+                                       </div>
+                                       <div class="links-wrapper">
+                                          <a href="#" class="link">View details</a>
+                                          <button class="bottom-button">Apply now</button>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div> 
+                     </div>
+                     <div class="items__footer">
+                        <ul class="list">
+                           <li class="active"><a href="#">1</a></li>
+                           <li><a href="#">2</a></li>
+                           <li><a href="#">3</a></li>
+                           <li><a href="#">4</a></li>
+                        </ul>
+                        <button>
+                           <span>Next page</span>
+                           <svg width="7" height="13" viewBox="0 0 7 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M1.32249 0.0833657C1.45944 0.0829001 1.59475 0.113124 1.71848 0.171817C1.84221 0.23051 1.95122 0.316181 2.03749 0.422533L6.46499 5.92253C6.59982 6.08655 6.67352 6.29229 6.67352 6.50462C6.67352 6.71694 6.59982 6.92268 6.46499 7.0867L1.88166 12.5867C1.72607 12.7739 1.50248 12.8916 1.26009 12.914C1.0177 12.9363 0.776358 12.8615 0.589159 12.7059C0.40196 12.5503 0.284238 12.3267 0.26189 12.0843C0.239542 11.8419 0.314398 11.6006 0.469992 11.4134L4.56749 6.50003L0.607492 1.5867C0.495399 1.45215 0.424195 1.2883 0.402305 1.11455C0.380416 0.940795 0.408756 0.764406 0.483974 0.606255C0.559192 0.448105 0.678138 0.314811 0.82674 0.222145C0.975341 0.129479 1.14738 0.0813199 1.32249 0.0833657Z" fill="#0F71EB"/>
+                           </svg>        
+                        </button>
+                     </div>
+                  </section>
+               </div>
+            </div>
+         </div>
+      </main>
+
+      <footer class="footer">
+         <div class="container">
+            <div class="row">
+               <div class="col">
+                  <div class="footer__content-wrapper">
+                     <svg width="213" height="31" viewBox="0 0 213 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.890113 21.2551C0.890113 26.4946 4.95631 30.0348 11.1062 30.0348C17.0942 30.0348 20.9379 26.7778 22.1921 20.8302L26.5618 0.337401H19.1172L14.9498 19.8997C14.4239 22.4082 13.2101 23.6624 11.2276 23.6624C9.2248 23.6624 8.05147 22.3677 8.05147 20.3649V20.0413H0.950802C0.910343 20.3852 0.890113 20.9111 0.890113 21.2551ZM35.6458 24.6334C33.4812 24.6334 32.0853 22.7723 32.0853 19.9806C32.0853 15.6312 34.3511 12.3944 37.4665 12.3944C39.6108 12.3944 41.0067 14.2555 41.0067 17.0472C41.0067 21.336 38.7005 24.6334 35.6458 24.6334ZM37.7699 6.97279C30.3658 6.97279 25.0251 12.5158 25.0251 20.1222C25.0251 26.0698 29.1722 30.055 35.3626 30.055C42.7667 30.055 48.1074 24.5121 48.1074 16.9056C48.1074 10.9783 43.9602 6.97279 37.7699 6.97279ZM62.532 29.8527C68.8235 29.8527 73.3145 23.6219 73.3145 15.8132C73.3145 10.4321 70.4014 7.17508 65.789 7.17508C62.9366 7.17508 60.4484 8.51025 59.1334 10.7153H58.9514L61.1969 0.337401H54.2378L48.007 29.5291H54.7638L55.6337 25.4629H55.7753C56.5845 28.0927 59.2548 29.8527 62.532 29.8527ZM60.8327 24.3098C58.6075 24.3098 57.1509 22.5902 57.1509 20.0615C57.1509 16.0155 59.5583 12.536 62.532 12.536C64.7573 12.536 66.133 14.2151 66.133 16.8652C66.133 20.9718 63.8672 24.3098 60.8327 24.3098ZM76.1475 14.2151C76.1475 17.2495 78.0289 19.2523 82.1153 20.6077L84.0978 21.2753C86.2422 22.0036 86.8896 22.4688 86.8896 23.3792C86.8896 24.5525 85.7769 25.3212 83.9967 25.3212C81.731 25.3212 80.2744 24.1884 80.1328 22.5498H73.5176C73.6997 27.0812 77.6648 30.055 83.7944 30.055C89.8027 30.055 93.7879 27.0812 93.7879 22.6307C93.7879 19.6771 92.1898 17.998 88.0224 16.6022L85.6758 15.8335C83.4303 15.085 82.7627 14.5792 82.7627 13.6082C82.7627 12.4551 83.8956 11.6863 85.696 11.6863C87.5976 11.6863 88.9328 12.7383 89.0339 14.2555H95.3052C95.1636 9.9668 91.2997 6.99302 85.7972 6.99302C79.9507 6.99302 76.1475 9.86565 76.1475 14.2151ZM101.274 0.337401L95.0835 29.5291H102.508L104.328 20.9718H109.163C117.134 20.9718 122.333 16.4403 122.333 9.13738C122.333 3.83716 118.51 0.337401 112.137 0.337401H101.274ZM107.484 6.04221H110.6C113.311 6.04221 114.868 7.29646 114.868 9.80496C114.868 13.0822 112.623 15.3682 109.163 15.3682H105.502L107.484 6.04221ZM132.307 24.6334C130.143 24.6334 128.747 22.7723 128.747 19.9806C128.747 15.6312 131.012 12.3944 134.128 12.3944C136.272 12.3944 137.668 14.2555 137.668 17.0472C137.668 21.336 135.362 24.6334 132.307 24.6334ZM134.431 6.97279C127.027 6.97279 121.686 12.5158 121.686 20.1222C121.686 26.0698 125.834 30.055 132.024 30.055C139.428 30.055 144.769 24.5121 144.769 16.9056C144.769 10.9783 140.622 6.97279 134.431 6.97279ZM144.527 29.5291H151.506L153.994 17.9374C154.682 14.7006 156.584 13.1024 159.456 13.1024C160.711 13.1024 161.742 13.4059 162.632 13.8307L163.968 7.74152C163.179 7.37738 162.268 7.17508 161.055 7.17508C158.587 7.17508 156.604 8.59117 155.532 10.6344H155.39L156.017 7.49876H149.24L144.527 29.5291ZM172.101 29.8123C173.234 29.8123 174.488 29.7111 175.115 29.5493L176.187 24.6537C175.904 24.7346 175.54 24.775 174.731 24.775C172.93 24.775 172.121 24.2491 172.121 22.9948C172.121 22.6914 172.162 22.2059 172.242 21.8619L174.104 13.1833H178.494L179.586 8.00451H175.196L176.309 2.70429H169.37L168.237 8.00451H164.96L163.827 13.1833H167.124L165.122 22.6509C164.94 23.5815 164.899 24.4109 164.899 24.9571C164.899 28.1737 167.61 29.8123 172.101 29.8123ZM187.456 25.0178C185.757 25.0178 184.583 24.1681 184.583 22.8734C184.583 21.3967 185.959 20.4256 188.083 20.3447L192.089 20.2233L191.725 21.8619C191.34 23.6826 189.52 25.0178 187.456 25.0178ZM184.381 29.8527C187.132 29.8527 189.418 28.6794 190.592 26.9194H190.733L190.167 29.5291H196.903L199.918 15.4086C199.999 14.9433 200.08 14.1948 200.08 13.6082C200.08 9.66335 196.317 6.97279 190.713 6.97279C185.211 6.97279 181.185 9.80496 180.355 14.2555H186.748C187.153 12.9001 188.407 12.1112 190.228 12.1112C192.089 12.1112 193.282 12.9406 193.282 14.2151C193.282 14.4174 193.262 14.5994 193.201 14.9433L192.938 16.2381L187.719 16.3999C181.61 16.582 177.867 19.3534 177.867 23.8647C177.867 27.324 180.699 29.8527 184.381 29.8527ZM199.757 29.5291H206.716L212.926 0.337401H205.967L199.757 29.5291Z" fill="#0F71EB"/>
+                     </svg>
+                     <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ridiculus elementum auctor nibh ut. Pellentesque consequat purus tempor porttitor leo.</p>
+                     <button>Contact Us</button> 
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="footer__images-wrapper">
+            <img src="./images/wave-3.png" class="img-fluid w-100 wave-3" alt="Waves">
+            <img src="./images/wave-1.png" class="img-fluid w-100 wave-1" alt="Waves">
+            <img src="./images/wave-2.png" class="img-fluid w-100 wave-2" alt="Waves">
+         </div>
+         <p class="footer__bottom-info">© 2022 All Rights Reserved</p>
+      </footer>
+   </body>
+</html>
